@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&display=swap');
+
+body{
+    margin: 30px 10px;
+    font-family: "Libre Baskerville", sans-serif;
+}
+
+#main{
+    background-color: #eee;
+    padding: 10px 5px 20px 5px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 1%;
+}
+
+#main #title{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#main #title p{
+    font-size: 14px;
+    color: #333;
+    margin-top: -1%;
+}
+
+#img-div{
+    background-color: #fff;
+    padding: 10px;
+    padding-bottom: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #333;
+}
+
+ #image{
+    max-width: 80%;
+    height: auto;
+}
+
+#img-caption{
+    font-size: 12px;
+    padding-top: 5px;
+}
+
+#tribute-info{
+    margin: 35px 250px 35px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+ul{
+    font-size: 13px;
+    display: flex;
+    flex-direction: column;
+}
+
+ul li{
+    margin-top: 15px;
+    line-height: 2;
+}
+
+h2{
+   align-self: center;
+   font-size: 18px;
+}
+
+#tribute-info blockquote{
+    font-style: italic;
+    color: #5B5B5B;
+}
+
+#footer h2{
+    font-size: 15px;
+}
+
+#tribute-link{
+    color: #74638F;
+}
